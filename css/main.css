@@ -2,6 +2,8 @@
 
 html, body {
     margin: 0;
+    min-width: 400px;
+    min-height: auto;
 }
 
 section {
@@ -63,6 +65,10 @@ span {
 }
 
 @media (max-width: 980px) {
+    section {
+        background-image: url('../img/bg3.png');
+    }
+    
     .box {
         font-size: 24px;
         width: 100%;
@@ -75,8 +81,7 @@ span {
 
 @media (max-width: 600px) {
     section {
-        background-image: none;
-        background-color: rgba(11, 26, 73, 0.822);
+        background-image: url('../img/bg4.png');
     }
 
     .box {
