@@ -2,8 +2,6 @@
 
 html, body {
     margin: 0;
-    min-width: 400px;
-    min-height: auto;
 }
 
 section {
@@ -82,9 +80,5 @@ span {
 @media (max-width: 600px) {
     section {
         background-image: url('../img/bg4.png');
-    }
-
-    .box {
-        background-color: rgba(0, 0, 0, 0.9);
     }
 }
