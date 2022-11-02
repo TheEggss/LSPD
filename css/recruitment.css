@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+section {
+    background-image: url('../img/lspd.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 65vh;
+    padding: 7.5vh 7.5vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(218, 228, 238);
+}
+
+section::before {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: 1;
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 15vh;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 48px;
+    z-index: 2;
+}
+
+.open {
+    color: greenyellow;
+    margin: auto;
+}
+
+.closed {
+    color: brown;
+    margin: auto;
+}
+
+.text-open {
+    color: rgb(218, 228, 238);
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+}
+
+.text-closed {
+    color: rgb(218, 228, 238);
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+}
+
+button {
+    color:rgb(218, 228, 238);
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(31, 56, 138);
+    padding: 20px;
+    margin: 30px;
+    transition-duration: 1s;
+}
+
+button:hover {
+    background-color: rgb(22, 38, 94);
+    border-radius: 10px;
+    color: rgb(128, 133, 138);
+}
