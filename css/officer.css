@@ -5,11 +5,9 @@ html, body {
 }
 
 section {
-    /* background-image: url('../img/bg.jpg'); */
     background-size: cover;
     background-color: rgb(20, 3, 80);
-    /* height: 65vh; */
-    padding: 4vh 0;
+    padding: 4vh 0 0;
     font-family: 'Kanit', sans-serif;
     color: rgb(218, 228, 238);
     display: flex;
@@ -27,21 +25,8 @@ section {
 .flex {
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
     margin: 30px 0;
 }
-
-/* .column {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto; 
-    margin: 30px;
-    gap: 11%
-} */
 
 .officer {
     text-align: center;
