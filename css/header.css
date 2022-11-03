@@ -99,12 +99,12 @@ a {
         padding: 0;
         flex-direction: column;
         display: none;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     header ol li {
         width: 100%;
-        padding: 5px 5px;
+        padding: 4px 4px;
     }
 
     a {
@@ -112,5 +112,19 @@ a {
     }
     #menu {
         display: flex;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        padding: 0 25px;
+    }
+    
+    header ol {
+        font-size: 12px;
+    }
+
+    header ol li {
+        padding: 2px 2px;
     }
 }
