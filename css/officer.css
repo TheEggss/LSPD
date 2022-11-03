@@ -5,7 +5,7 @@ html, body {
 }
 
 section {
-    background-image: url('../img/lspd.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.2);
     height: 65vh;

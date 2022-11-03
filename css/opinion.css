@@ -5,13 +5,14 @@ html, body {
 }
 
 section {
-    background-image: url('../img/lspd.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.2);
     height: 65vh;
     padding: 7.5vh 7.5vw;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'Kanit', sans-serif;
     color: rgb(218, 228, 238);
 }
@@ -28,4 +29,12 @@ section::before {
     align-items: center;
     left: 0;
     top: 15vh;
+}
+
+iframe {
+    z-index: 2;
+    width: 40%;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: #a7e1fb;
 }
