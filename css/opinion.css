@@ -38,3 +38,33 @@ iframe {
     border-radius: 10px;
     background-color: #a7e1fb;
 }
+
+@media (max-width: 1350px) {
+    section {
+        background-image: url('../img/bg2.png');
+    }
+    
+    iframe {
+        width: 60%;
+    }
+}
+
+@media (max-width: 980px) {
+    section {
+        background-image: url('../img/bg3.png');
+    }
+
+    iframe {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        background-image: url('../img/bg4.png');
+    }
+
+    iframe {
+        width: 90%;
+    }
+}
