@@ -89,6 +89,17 @@ button:hover {
     color: rgb(128, 133, 138);
 }
 
+@media (max-width: 1700px) {
+    .text-open {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 28px;
+        margin: 15px;
+    }
+}
+
 @media (max-width: 1350px) {
     section {
         background-image: url('../img/bg2.png');
@@ -120,10 +131,22 @@ button:hover {
 
     .box {
         font-size: 32px;
+        padding: 2vh 2vw;
+        height: 100%;
     }
 
     .text-closed {
         font-size: 16px;
+    }
+
+    .text-open {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 24px;
+        margin: 5px;
+        padding: 10px;
     }
 }
 
@@ -134,5 +157,15 @@ button:hover {
 
     .text-closed {
         font-size: 12px;
+        line-height: 30px;
+    }
+
+    .text-open {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    button {
+        font-size: 20px;
     }
 }

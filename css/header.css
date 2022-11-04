@@ -92,7 +92,7 @@ a {
 @media (max-width: 800px) {
     header {
         justify-content:space-between;
-        padding: 0 50px;
+        padding: 0 80px 0 50px;
     }
     
     header ol {
@@ -117,7 +117,7 @@ a {
 
 @media (max-width: 400px) {
     header {
-        padding: 0 25px;
+        padding: 0 30px 0 10px;
     }
     
     header ol {

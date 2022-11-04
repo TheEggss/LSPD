@@ -70,15 +70,22 @@ section {
 	.officer {
 		display: flex;
 		flex-direction: column;
+		padding-bottom: 0;
+		margin: auto;
+		height: 212px;
 	}
 	
 	.officer img {
 		width: 150px;
-		margin-bottom: 10px;
 	}
 	
 	span {
 		margin: auto;
+		text-align: center;
+	}
+
+	.none {
+		display: none;
 	}
 }
 
@@ -102,8 +109,17 @@ section {
 		margin-bottom: 10px;
 	}
 	
+	.officer img {
+		margin-bottom: 0;
+	}
+
 	.chief {
-		position: static;
+		bottom: 222px;
+	}
+
+	.assist {
+		position: relative;
+		top: 222px;
 	}
 }
 	
