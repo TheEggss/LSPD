@@ -49,3 +49,40 @@ section {
 .pm {
     margin-bottom: 50px;
 }
+
+@media (max-width: 1250px) {
+	.officer img {
+		width: 250px;
+	}
+}
+
+@media (max-width: 1050px) {
+	.officer {
+		font-size: 14px;
+	}
+	
+	.officer img {
+		width: 200px;
+	}
+}
+
+@media (max-width: 850px) {
+	.officer {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.officer img {
+		width: 150px;
+		margin-bottom: 10px;
+	}
+	
+	span {
+		margin: auto;
+	}
+}
+
+@media (max-width: 650px) {
+	
+}
+	
