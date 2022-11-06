@@ -43,6 +43,7 @@ a {
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
+    width: 10vh;
 }
 
 .menu-bar {
@@ -91,20 +92,29 @@ a {
 
 @media (max-width: 800px) {
     header {
-        justify-content:space-between;
-        padding: 0 80px 0 50px;
+        justify-content: space-evenly;
     }
     
     header ol {
         padding: 0;
         flex-direction: column;
         display: none;
-        font-size: 16px;
+        font-size: 24px;
+        align-items: center;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        background-color: rgb(31, 56, 138);
+        width: 100%;
+        margin: 0;
+        border-top: 1px solid rgb(218, 228, 238);
+        z-index: 3;
     }
 
     header ol li {
         width: 100%;
-        padding: 4px 4px;
+        padding: 10px 10px;
+        text-align: center;
     }
 
     a {
@@ -113,18 +123,33 @@ a {
     #menu {
         display: flex;
     }
+
+    .login {
+        width: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 400px) {
-    header {
-        padding: 0 30px 0 10px;
-    }
-    
+    /* header img {
+        display: none;
+    } */
+
     header ol {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     header ol li {
         padding: 2px 2px;
     }
+
+    #menu {
+        margin: 0;
+    }
+
+    /* .login {
+        justify-content: flex-end;
+    } */
 }
