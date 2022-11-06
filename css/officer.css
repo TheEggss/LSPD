@@ -50,6 +50,13 @@ section {
     margin-bottom: 50px;
 }
 
+.center {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1250px) {
 	.officer img {
 		width: 250px;
