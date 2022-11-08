@@ -84,6 +84,12 @@ header .login:hover a {
     display: flex !important;
 }
 
+.active {
+    background-color: rgb(22, 38, 94);
+    border-radius: 10px;
+    color: rgb(128, 133, 138);
+}
+
 @media (max-width: 1350px) {
     header ol {
         font-size: 20px;
@@ -95,13 +101,13 @@ header .login:hover a {
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1050px) {
     header ol {
         font-size: 16px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 980px) {
     header {
         justify-content: space-evenly;
     }
