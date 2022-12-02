@@ -28,6 +28,8 @@ header ol li:hover {
     background-color: rgb(22, 38, 94);
     border-radius: 10px;
     color: rgb(128, 133, 138);
+	box-shadow: 2px 2px 10px rgb(22, 38, 94);
+	text-shadow: 1px 1px 10px rgb(128, 133, 138);
 }
 
 a {
@@ -45,6 +47,8 @@ header .login:hover a {
     background-color: rgb(22, 38, 94);
     border-radius: 10px;
     color: rgb(128, 133, 138);
+	box-shadow: 2px 2px 10px rgb(22, 38, 94);
+	text-shadow: 1px 1px 10px rgb(128, 133, 138);
 }
 
 #menu {
@@ -88,6 +92,8 @@ header .login:hover a {
     background-color: rgb(22, 38, 94);
     border-radius: 10px;
     color: rgb(128, 133, 138);
+	box-shadow: 2px 2px 10px rgb(22, 38, 94);
+	text-shadow: 1px 1px 10px rgb(128, 133, 138);
 }
 
 @media (max-width: 1350px) {
@@ -150,10 +156,6 @@ header .login:hover a {
 }
 
 @media (max-width: 400px) {
-    /* header img {
-        display: none;
-    } */
-
     header ol {
         font-size: 18px;
     }
@@ -165,8 +167,4 @@ header .login:hover a {
     #menu {
         margin: 0;
     }
-
-    /* .login {
-        justify-content: flex-end;
-    } */
 }
